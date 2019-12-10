@@ -1,0 +1,266 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+}
+
+button{
+    font-size: 0.8em;
+}
+
+h1{
+    font-size: 2em;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+p, ul{
+    color: rgb(240, 240, 240);
+}
+
+/* Barra de Navegacion */
+nav, nav ul, nav a, nav a:visited{
+    color: white;
+}
+
+nav{
+    background-color: #CB3837;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 20px;
+}
+
+nav ul{
+    list-style-type: none;
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li{
+    padding: 0 5px;
+}
+
+nav a, nav a:visited{
+    text-decoration: none;
+}
+
+/* Encabezado */
+.logo{
+    width: 80px;
+    height: 40px;
+    margin: 0, 5px;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    margin: 0, 3px, 0, 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(32, 101, 136);
+    background-image: url("city-scape.svg");
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-nav{
+    height: 30px;
+    width: 100%;
+    padding: 10px, 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.header-nav form{
+    display: flex;
+    margin: 0, 5px;
+    padding: 0;
+    width: 100%;
+}
+
+.header-nav input{
+    outline: none;
+    border-style: none;
+    border-style: 1px, solid, rgb(200,200,200,0.3);
+    color: darkgray;
+    width: 100%;
+    height: 38px;
+    background-color: rgb(31, 82, 111);
+    padding: 0, 5px;
+}
+
+.header-nav input:focus{
+    color: white;
+}
+
+.header-nav form button{
+    margin: 0, 0, 0, 2px;
+    border: 1px, solid, gb(200,200,200,0.3);
+    border-radius: 0;
+    color: white;
+    height: 40px;
+    width: 37px;
+    background-color: #245a79;
+}
+
+.header-nav a, .header-nav a:visited{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    width: 150px;
+}
+
+.content{
+    width: 600px;
+    padding: 40px, 20%, 100px, 0;
+    text-align: left;
+}
+
+header h1{
+    width: 300px;
+}
+
+header p{
+    width: 350px;
+    padding: 20px, 0;
+}
+
+header button{
+    color: white;
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 140px;
+    background-color: rgb(240, 146, 51);
+}
+
+/*First Section*/
+.first{
+    background-color: rgb(39, 53, 71);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first button{
+    color: white;
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 140px;
+    background-color: rgb(203, 56, 55);
+}
+
+.first .content{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin-left: 370px;
+}
+
+.first .content div{
+    margin-left: 30px;
+}
+
+.first ul li{
+    padding: 0, 0, 15px, 5px;
+    width: 300px;
+}
+
+.first img{
+    width: 400px;
+    height: 300px;
+}
+
+.first a, .first a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.first h2{
+    width: 300px;
+}
+
+/*Second Section*/
+.second{
+    background-image: url("forklift.svg");
+    color: white;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.second h1{
+    margin: 0;
+}
+
+.second button{
+    background-color: rgb(49, 68, 88);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 120px;
+    height: 30px;
+}
+
+.second .content{
+    padding-top: 120px;
+    padding-bottom: 200px;
+    width: 400px;
+}
+
+.second p{
+    width: 400px;
+}
+
+/*Third Section*/
+.third{
+    background-color: white;
+    color: rgb(135, 145, 156);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third h3{
+    color: rgb(83, 88, 98);
+}
+
+.third p{
+    color: rgb(135, 145, 156);
+}
+
+.third .blocks{
+    display: flex;
+    justify-content: center;
+}
+
+.block a{
+    color: rgb(208, 74, 73);
+}
+
+.block{
+    width: 200px;
+    margin: 50px;
+}
+
+.block img{
+    width: 100px;
+    height: 100px;
+}
